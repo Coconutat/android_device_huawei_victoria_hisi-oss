@@ -340,7 +340,6 @@ odm/etc/firmware/wifi/fw_bcm43455_hw.bin
 
 # NFC configs
 odm/etc/libnfc-nci.conf
-product/etc/nfc/libnfc-brcm.conf:odm/etc/libnfc-brcm.conf
 product/etc/nfc/libnfc-nxp.conf:odm/etc/libnfc-nxp.conf
 
 # TEE
