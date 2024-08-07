@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/huawei/stanford
+DEVICE_PATH := device/huawei/victoria
 
 # Inherit from hi3660-common
 include device/huawei/hi3660-common/BoardConfigCommon.mk
@@ -16,4 +16,4 @@ TARGET_SCREEN_DENSITY := 420
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
 # Inherit the proprietary files
-include vendor/huawei/stanford/BoardConfigVendor.mk
+include vendor/huawei/victoria/BoardConfigVendor.mk

@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_stanford.mk
+    $(LOCAL_DIR)/lineage_victoria.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_stanford-user \
-    lineage_stanford-userdebug \
-    lineage_stanford-eng
+    lineage_victoria-user \
+    lineage_victoria-userdebug \
+    lineage_victoria-eng

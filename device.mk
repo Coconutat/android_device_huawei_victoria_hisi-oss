@@ -29,4 +29,4 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
 # Call the proprietary setup
-$(call inherit-product, vendor/huawei/stanford/stanford-vendor.mk)
+$(call inherit-product, vendor/huawei/victoria/victoria-vendor.mk)

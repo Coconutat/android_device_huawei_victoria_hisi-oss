@@ -40,7 +40,7 @@ fi
 
 set -e
 
-export DEVICE=stanford
+export DEVICE=victoria
 export DEVICE_COMMON=hi3660-common
 export VENDOR=huawei
 export VENDOR_COMMON=${VENDOR}
