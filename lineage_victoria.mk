@@ -18,14 +18,14 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := victoria
 PRODUCT_NAME := lineage_victoria
-PRODUCT_BRAND := HONOR
-PRODUCT_MODEL := STF-L09
+PRODUCT_BRAND := HUAWEI
+PRODUCT_MODEL := VTR-AL00
 PRODUCT_MANUFACTURER := HUAWEI
 
 PRODUCT_GMS_CLIENTID_BASE := android-huawei
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="STF-L09-user 9.1.0 HUAWEISTF-L09 231-OVS-LGRP2 release-keys"
+    PRIVATE_BUILD_DESC="Victoria-AL00-user 7.0 HUAWEIVictoria-AL00 C00B001 release-keys"
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
-BUILD_FINGERPRINT := "HONOR/STF-L09/HWSTF:9/HUAWEISTF-L09/9.1.0.231C432:user/release-keys"
+BUILD_FINGERPRINT := "HUAWEI/VTR-AL00/HWVTR:9/HUAWEIVTR-AL00/9.1.0.201C00:user/release-keys"

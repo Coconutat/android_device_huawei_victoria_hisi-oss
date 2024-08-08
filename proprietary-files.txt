@@ -1,4 +1,4 @@
-# All unpinned blobs below are extracted from VTR-AL00-user 9.1.0 Chipset-chicago 9.1.0.6(07PQ)
+# All unpinned blobs below are extracted from VTR-AL00-user 9.1.0.201 Chipset-chicago 9.1.0.6(07PQ) // Victoria-AL00-user 7.0 HUAWEIVictoria-AL00 C00B001 release-keys
 
 # Audio configs
 odm/etc/audio/HiVoice/HiVoice_VICTORIA_normal.xml
