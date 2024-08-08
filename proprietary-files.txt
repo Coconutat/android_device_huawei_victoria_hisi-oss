@@ -279,7 +279,7 @@ odm/lib64/hwcam/hwcam.hi3660.VICTORIA.s.OV8865.so
 vendor/etc/cfg_chicago_hisi.ini
 
 # Firmware
-lodm/etc/firmware/ibpn551_fw.so
+odm/etc/firmware/ibpn551_fw.so
 odm/etc/firmware/ts/libaftouch.so
 odm/etc/firmware/ts/VCTO33100_default.ini
 odm/etc/firmware/ts/VCTO33100_short_open.bin
