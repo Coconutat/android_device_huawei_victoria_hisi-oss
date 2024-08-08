@@ -2,49 +2,28 @@
 
 # Audio configs
 odm/etc/audio/HiVoice/HiVoice_VICTORIA_normal.xml
-odm/etc/audio/algorithm/algorithm_VICTORIA-Oversea_normal.xml
 odm/etc/audio/algorithm/algorithm_VICTORIA_normal.xml
 odm/etc/audio/asrenhance/parameters_nuance_16k_2EC.bsd
 odm/etc/audio/asrenhance/parameters_nuance_16k_EC.bsd
 odm/etc/audio/asrenhance/parameters_nuance_16k_NR.bsd
 odm/etc/audio/asrenhance/parameters_nuance_16k_NR_vib.bsd
-odm/etc/audio/dts/dts_VICTORIA-Oversea_normal.xml
 odm/etc/audio/dts/dts_VICTORIA_normal.xml
-odm/etc/audio/hi6403/mixer_paths_VICTORIA-Oversea.xml
 odm/etc/audio/hi6403/mixer_paths_VICTORIA.xml
-odm/etc/audio/hi6403/mixer_volumes_VICTORIA-Oversea_ce.xml
-odm/etc/audio/hi6403/mixer_volumes_VICTORIA-Oversea_cmcciot.xml
-odm/etc/audio/hi6403/mixer_volumes_VICTORIA-Oversea_gcf.xml
-odm/etc/audio/hi6403/mixer_volumes_VICTORIA-Oversea_normal.xml
-odm/etc/audio/hi6403/mixer_volumes_VICTORIA-Oversea_telecomiot.xml
-odm/etc/audio/hi6403/mixer_volumes_VICTORIA-Oversea_unicomiot.xml
+
 odm/etc/audio/hi6403/mixer_volumes_VICTORIA_ce.xml
 odm/etc/audio/hi6403/mixer_volumes_VICTORIA_cmcciot.xml
 odm/etc/audio/hi6403/mixer_volumes_VICTORIA_gcf.xml
 odm/etc/audio/hi6403/mixer_volumes_VICTORIA_normal.xml
 odm/etc/audio/hi6403/mixer_volumes_VICTORIA_telecomiot.xml
 odm/etc/audio/hi6403/mixer_volumes_VICTORIA_unicomiot.xml
-odm/etc/audio/hi6403/pop_seq_VICTORIA-Oversea.xml
 odm/etc/audio/hi6403/pop_seq_VICTORIA.xml
-odm/etc/audio/mbdrc/mbdrc_VICTORIA-Oversea_normal.xml
 odm/etc/audio/mbdrc/mbdrc_VICTORIA_normal.xml
-odm/etc/audio/modem/modem_VICTORIA-Oversea_cmcciot.xml
-odm/etc/audio/modem/modem_VICTORIA-Oversea_gcf.xml
-odm/etc/audio/modem/modem_VICTORIA-Oversea_normal.xml
-odm/etc/audio/modem/modem_VICTORIA-Oversea_telecomiot.xml
-odm/etc/audio/modem/modem_VICTORIA-Oversea_unicomiot.xml
 odm/etc/audio/modem/modem_VICTORIA_cmcciot.xml
 odm/etc/audio/modem/modem_VICTORIA_gcf.xml
 odm/etc/audio/modem/modem_VICTORIA_normal.xml
 odm/etc/audio/modem/modem_VICTORIA_telecomiot.xml
 odm/etc/audio/modem/modem_VICTORIA_unicomiot.xml
-odm/etc/audio/sws/sws_3d_VICTORIA-Oversea_normal.cfg
-odm/etc/audio/sws/sws_3d_VICTORIA_normal.cfg
-odm/etc/audio/sws/sws_VICTORIA-Oversea_normal.xml
 odm/etc/audio/sws/sws_VICTORIA_normal.xml
-odm/etc/audio/ti/ti_VICTORIA-Oversea_normal.xml
-odm/etc/audio/ti/ti_VICTORIA_normal.xml
-odm/etc/audio/version
 odm/etc/audio/volume/audio_policy_volumes.xml
 odm/etc/audio/volume/volume_point.xml
 
@@ -61,8 +40,6 @@ odm/etc/camera/LaserCali/LaserSelfCali.xml
 odm/etc/camera/bshutter/device.config
 odm/etc/camera/bshutter/imx386/algo.xml
 odm/etc/camera/bshutter/imx386/info.xml
-odm/etc/camera/bshutter/ov12a10/algo.xml
-odm/etc/camera/bshutter/ov12a10/info.xml
 odm/etc/camera/configeffect/digitalzoom/device.config
 odm/etc/camera/configeffect/digitalzoom/imx386dual/gcd.xml
 odm/etc/camera/configeffect/digitalzoom/imx386dual/gcd_aux.xml
@@ -100,7 +77,6 @@ odm/etc/camera/davinci/imx319/imgproc.xml
 odm/etc/camera/davinci/imx319/ivp_hdr2.xml
 odm/etc/camera/davinci/imx319/mddavinci/imgproc.xml
 odm/etc/camera/davinci/imx319/multiframe.xml
-odm/etc/camera/davinci/imx319/nicefood/imgproc.xml
 odm/etc/camera/davinci/imx219/dhdr_ivp.xml
 odm/etc/camera/davinci/imx219/hdr.xml
 odm/etc/camera/davinci/imx219/hwnie.xml
@@ -170,7 +146,6 @@ odm/etc/camera/frontbokeh/fcve.xml
 odm/etc/camera/hdccalib/hw_calib_setting.xml
 odm/etc/camera/hdflash/device.config
 odm/etc/camera/hdflash/imx386/hdflash.xml
-odm/etc/camera/hdflash/ov12a10/hdflash.xml
 odm/etc/camera/hwbeauty/default/hwbeauty_params.xml
 odm/etc/camera/hwbeauty/device.config
 odm/etc/camera/hwbeauty/imx319/hwbeauty_params.xml
@@ -191,7 +166,6 @@ odm/etc/camera/mmi/dualc_mmi_platformconfig.xml
 odm/etc/camera/mmi/hw_ois_calib_setting.xml
 odm/etc/camera/mmi/hwhallcodeCalib.xml
 odm/etc/camera/mmi7cm/MHA_imx286dual/mmi7cmConfig.xml
-odm/etc/camera/mmi7cm/VICTORIA_imx386dual/mmi7cmConfig.xml
 odm/etc/camera/mmi7cm/device.config
 odm/etc/camera/monitor_config.xml
 odm/etc/camera/motiondetection/mdconfig.xml
@@ -210,7 +184,6 @@ odm/etc/camera/multidenoise/imx386dual/ivp_mfnr2.xml
 odm/etc/camera/multidenoise/imx386dual/multiframe.xml
 odm/etc/camera/multidenoise/multidenoise.xml
 odm/etc/camera/nicefood/device.config
-odm/etc/camera/nicefood/imx386dual/niceFood.dat
 odm/etc/camera/offlinealgocfg.xml
 odm/etc/camera/opticalzoom/device.config
 odm/etc/camera/opticalzoom/imx386dual/dcsr2.xml
@@ -239,7 +212,6 @@ odm/etc/camera/smartae/device.config
 odm/etc/camera/smartae/imx319/SmartAE.xml
 odm/etc/camera/smartae/imx219/SmartAE.xml
 odm/etc/camera/smartae/imx386/SmartAE.xml
-odm/etc/camera/smartae/ov12a10/SmartAE.xml
 odm/etc/camera/tornado/device.config
 odm/etc/camera/tornado/imx319/TornadoI.ini
 odm/etc/camera/tornado/imx219/TornadoI.ini
@@ -279,7 +251,7 @@ odm/lib64/hwcam/hwcam.hi3660.VICTORIA.s.OV8865.so
 vendor/etc/cfg_chicago_hisi.ini
 
 # Firmware
-odm/etc/firmware/ibpn551_fw.so
+odm/etc/firmware/libpn551_fw.so
 odm/etc/firmware/ts/libaftouch.so
 odm/etc/firmware/ts/VCTO33100_default.ini
 odm/etc/firmware/ts/VCTO33100_short_open.bin
