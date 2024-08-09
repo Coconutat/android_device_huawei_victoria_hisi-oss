@@ -18,7 +18,7 @@ BOARD_SUPER_PARTITION_PREAS_DEVICE_SIZE := 310378496 # /dev/block/mmcblk0p60
 BOARD_SUPER_PARTITION_PRODUCT_DEVICE_SIZE := 511705088 # /dev/block/mmcblk0p57
 BOARD_SUPER_PARTITION_SYSTEM_DEVICE_SIZE := 2860515328 # /dev/block/mmcblk0p59
 
-BOARD_SUPER_PARTITION_SIZE := 5469372416 # The sum of the total sizes of all partitions
+BOARD_SUPER_PARTITION_SIZE := 5108662272  # The sum of the total sizes of all partitions
 
 # Inherit from hi3660-common
 include device/huawei/hi3660-common/BoardConfigCommon.mk
