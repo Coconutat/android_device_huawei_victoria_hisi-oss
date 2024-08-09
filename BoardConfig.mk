@@ -10,7 +10,7 @@ DEVICE_PATH := device/huawei/victoria
 TARGET_KERNEL_CONFIG := merge_hi3660_P10_defconfig
 
 # Partitions
-# BOARD_BOOTIMAGE_PARTITION_SIZE := 25165824
+# BOARD_BOOTIMAGE_PARTITION_SIZE := 25165824 # /dev/block/mmcblk0p39 # Kernel Partition
 
 # Partitions - dynamic
 BOARD_SUPER_PARTITION_BLOCK_DEVICES := cust eng_system eng_vendor odm patch preas preavs product system vendor
