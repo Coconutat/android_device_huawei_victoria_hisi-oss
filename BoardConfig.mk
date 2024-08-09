@@ -6,9 +6,6 @@
 
 DEVICE_PATH := device/huawei/victoria
 
-# Inherit from hi3660-common
-include device/huawei/hi3660-common/BoardConfigCommon.mk
-
 # Kernel
 TARGET_KERNEL_CONFIG := merge_hi3660_P10_defconfig
 
@@ -22,6 +19,9 @@ BOARD_SUPER_PARTITION_PRODUCT_DEVICE_SIZE := 511705088 # /dev/block/mmcblk0p57
 BOARD_SUPER_PARTITION_SYSTEM_DEVICE_SIZE := 2860515328 # /dev/block/mmcblk0p59
 
 BOARD_SUPER_PARTITION_SIZE := 5469372416 # The sum of the total sizes of all partitions
+
+# Inherit from hi3660-common
+include device/huawei/hi3660-common/BoardConfigCommon.mk
 
 # Display
 TARGET_SCREEN_DENSITY := 420
