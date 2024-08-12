@@ -1,4 +1,8 @@
-# 警告  
+# 语言  
+
+[English](README.md)  |  **简体中文**
+
+## 警告  
 
 我只是复制了Hisi-OSS团队的[android_device_huawei_stanford](https://github.com/hisi-oss/android_device_huawei_stanford)  
 就我本人而言，我没做什么有用的行为...  

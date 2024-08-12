@@ -1,4 +1,10 @@
-# WARNING  
+# Language  
+
+**English**  |  [简体中文](README_CN.md)  
+
+***
+
+## WARNING  
 
 I simply copied the Hisi-OSS team's [android_device_huawei_stanford](https://github.com/hisi-oss/android_device_huawei_stanford).  
 As for myself, I haven't done anything particularly useful...
