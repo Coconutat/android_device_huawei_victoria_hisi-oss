@@ -18,16 +18,16 @@ function blob_fixup() {
             "${PATCHELF}" --remove-needed "vendor.huawei.hardware.biometrics.hwsecurefacerecognize@1.0.so" "${2}"
             ## NOP vendor.huawei.hardware.perfgenius calls
             # CameraPerfImpl::connectLocked
-            "${SIGSCAN}" -p "e4 28 ef 97 fc 6f ba a9 fa 67 01 a9" -P "e4 28 ef 97 00 00 80 d2 c0 03 5f d6" -f "${2}"
+            "${SIGSCAN}" -p "b8 2c ef 97 fc 6f ba a9 fa 67 01 a9" -P "b8 2c ef 97 00 00 80 d2 c0 03 5f d6" -f "${2}"
             ## NOP vendor.huawei.hardware.sensors calls
             # TofSensorImpl::connectTofServiceLocked
-            "${SIGSCAN}" -p "4c d9 ee 97 fc 0f 1b f8 f8 5f 01 a9" -P "4c d9 ee 97 00 00 80 d2 c0 03 5f d6" -f "${2}"
+            "${SIGSCAN}" -p "d5 c8 ee 97 fc 0f 1b f8 f8 5f 01 a9" -P "d5 c8 ee 97 00 00 80 d2 c0 03 5f d6" -f "${2}"
             # AwbSensorImpl::connectAwbServiceLocked
-            "${SIGSCAN}" -p "0d c3 ed 97 fc 0f 1b f8 f8 5f 01 a9" -P "0d c3 ed 97 00 00 80 d2 c0 03 5f d6" -f "${2}"
+            "${SIGSCAN}" -p "47 c7 ed 97 fc 0f 1b f8 f8 5f 01 a9" -P "47 c7 ed 97 00 00 80 d2 c0 03 5f d6" -f "${2}"
             # FlickerSensorImpl::connectFlickerServiceLocked
-            "${SIGSCAN}" -p "06 bb ed 97 fc 0f 1b f8 f8 5f 01 a9" -P "06 bb ed 97 00 00 80 d2 c0 03 5f d6" -f "${2}"
+            "${SIGSCAN}" -p "40 bf ed 97 fc 0f 1b f8 f8 5f 01 a9" -P "40 bf ed 97 00 00 80 d2 c0 03 5f d6" -f "${2}"
             # LightSensorImpl::connectLightServiceLocked
-            "${SIGSCAN}" -p "68 b5 ed 97 fc 0f 1b f8 f8 5f 01 a9" -P "68 b5 ed 97 00 00 80 d2 c0 03 5f d6" -f "${2}"
+            "${SIGSCAN}" -p "a2 b9 ed 97 fc 0f 1b f8 f8 5f 01 a9" -P "a2 b9 ed 97 00 00 80 d2 c0 03 5f d6" -f "${2}"
             ;;
     esac
 }
