@@ -29,6 +29,8 @@ odm/etc/audio/volume/volume_point.xml
 
 # Camera
 odm/lib64/libarcsoft_beautyshot.so
+odm/lib64/libmegface_meglive.so
+odm/lib64/libMegviiUnlock.so
 odm/lib64/libmrc_cg_beauty.so
 odm/lib64/libunlockmegcv.so
 odm/lib64/libvidhance.so
